@@ -1,0 +1,8 @@
+version: 2
+sources:
+    - name: weather_data_atlas
+      database: weather_details
+      schema: onpoint_id
+      tables:
+        - name: forecast_day
+        - name: postal_codes
